@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CBCE30F2ADDCEF900E3EE88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCE30E2ADDCEF900E3EE88 /* main.cpp */; };
+		0CBCE3372ADDD11E00E3EE88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCE32F2ADDD11E00E3EE88 /* main.cpp */; };
+		0CBCE3382ADDD11E00E3EE88 /* location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCE3302ADDD11E00E3EE88 /* location.cpp */; };
+		0CBCE3392ADDD11E00E3EE88 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCE3322ADDD11E00E3EE88 /* board.cpp */; };
+		0CBCE33A2ADDD11E00E3EE88 /* tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCE3332ADDD11E00E3EE88 /* tile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,15 @@
 
 /* Begin PBXFileReference section */
 		0CBCE30B2ADDCEF900E3EE88 /* Minesweeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Minesweeper; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CBCE30E2ADDCEF900E3EE88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0CBCE32E2ADDD11E00E3EE88 /* location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = location.h; sourceTree = "<group>"; };
+		0CBCE32F2ADDD11E00E3EE88 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0CBCE3302ADDD11E00E3EE88 /* location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = location.cpp; sourceTree = "<group>"; };
+		0CBCE3312ADDD11E00E3EE88 /* tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile.h; sourceTree = "<group>"; };
+		0CBCE3322ADDD11E00E3EE88 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
+		0CBCE3332ADDD11E00E3EE88 /* tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tile.cpp; sourceTree = "<group>"; };
+		0CBCE3342ADDD11E00E3EE88 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		0CBCE3352ADDD11E00E3EE88 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		0CBCE3362ADDD11E00E3EE88 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +52,15 @@
 		0CBCE3022ADDCEF900E3EE88 = {
 			isa = PBXGroup;
 			children = (
-				0CBCE30D2ADDCEF900E3EE88 /* Minesweeper */,
+				0CBCE3322ADDD11E00E3EE88 /* board.cpp */,
+				0CBCE3362ADDD11E00E3EE88 /* board.h */,
+				0CBCE3352ADDD11E00E3EE88 /* game.h */,
+				0CBCE3302ADDD11E00E3EE88 /* location.cpp */,
+				0CBCE32E2ADDD11E00E3EE88 /* location.h */,
+				0CBCE32F2ADDD11E00E3EE88 /* main.cpp */,
+				0CBCE3342ADDD11E00E3EE88 /* random.h */,
+				0CBCE3332ADDD11E00E3EE88 /* tile.cpp */,
+				0CBCE3312ADDD11E00E3EE88 /* tile.h */,
 				0CBCE30C2ADDCEF900E3EE88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +71,6 @@
 				0CBCE30B2ADDCEF900E3EE88 /* Minesweeper */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0CBCE30D2ADDCEF900E3EE88 /* Minesweeper */ = {
-			isa = PBXGroup;
-			children = (
-				0CBCE30E2ADDCEF900E3EE88 /* main.cpp */,
-			);
-			path = Minesweeper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBCE30F2ADDCEF900E3EE88 /* main.cpp in Sources */,
+				0CBCE3382ADDD11E00E3EE88 /* location.cpp in Sources */,
+				0CBCE3372ADDD11E00E3EE88 /* main.cpp in Sources */,
+				0CBCE3392ADDD11E00E3EE88 /* board.cpp in Sources */,
+				0CBCE33A2ADDD11E00E3EE88 /* tile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
