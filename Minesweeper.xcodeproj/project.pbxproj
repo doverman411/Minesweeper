@@ -36,6 +36,7 @@
 		0CBCE3342ADDD11E00E3EE88 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
 		0CBCE3352ADDD11E00E3EE88 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
 		0CBCE3362ADDD11E00E3EE88 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
+		0CBCE33B2ADEF50600E3EE88 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		0CBCE3022ADDCEF900E3EE88 = {
 			isa = PBXGroup;
 			children = (
+				0CBCE33B2ADEF50600E3EE88 /* README.txt */,
 				0CBCE3322ADDD11E00E3EE88 /* board.cpp */,
 				0CBCE3362ADDD11E00E3EE88 /* board.h */,
 				0CBCE3352ADDD11E00E3EE88 /* game.h */,
