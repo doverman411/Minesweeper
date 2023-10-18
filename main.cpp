@@ -4,17 +4,21 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+#include "human.h"
+#include "bot.hpp"
 
 using namespace std;
 int main()
 {
+  // These are the variables you wanna change.
   Board BOARD(16,16,40);
+  const Player* p = new Human();
   
   string input;
   while(BOARD.running)
   {
     cout << BOARD << '\n';
-    std::getline(cin, input);
+    input = p->getMove();
     move(input, BOARD);
     std::system("clear"); 
   }

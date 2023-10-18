@@ -2,6 +2,7 @@
 #define GAME_H
 
 #include "board.h"
+#include "player.hpp"
 #include <sstream>
 
 bool can_stoi(std::string s)

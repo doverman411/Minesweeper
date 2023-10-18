@@ -5,3 +5,6 @@ Below is a list of the decisions that I made, and why I made them:
     2. tilesAround() returns a vector of pointers of Tiles.
         - This is because vector<T>.push_back() pushes a COPY of the argument, rather than a reference.
         - Thus, if it instead returned a vector of copies of tiles, that would be useless as we need to modify the actual tiles on the board.
+    3. Implementing types of players is a branch
+        - This is simply because I wanted to get familiar with branching. It is a linear progression, so I didn't really need to do it...
+        - ...but I'd thought I'd do it anyway for the practice. 

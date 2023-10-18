@@ -5,7 +5,7 @@
 class Player
 {
 public:
-    virtual std::string getMove()=0;
+    virtual std::string getMove() const = 0;
 };
 
 #endif 
